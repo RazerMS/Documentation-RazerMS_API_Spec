@@ -1,0 +1,3807 @@
+{
+	"info": {
+		"_postman_id": "40692b2b-0093-4708-bebf-c5963623eb11",
+		"name": "RazerMS API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Sandbox",
+			"item": [
+				{
+					"name": "Payment",
+					"item": [
+						{
+							"name": "Payment Request",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "merchant_id",
+											"value": "<merchant id>",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "amount",
+											"value": "1.10",
+											"type": "text"
+										},
+										{
+											"key": "orderid",
+											"value": "DEMO5179",
+											"type": "text"
+										},
+										{
+											"key": "bill_name",
+											"value": "MOLPay+Demo",
+											"type": "text"
+										},
+										{
+											"key": "bill_email",
+											"value": "demo@molpay.com",
+											"type": "text"
+										},
+										{
+											"key": "bill_mobile",
+											"value": "55218438",
+											"type": "text"
+										},
+										{
+											"key": "bill_desc",
+											"value": "testing+by+MOLPay",
+											"type": "text"
+										},
+										{
+											"key": "b_addr1",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "b_addr2",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "b_zipcode",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "b_city",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "vcode",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "currency",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "channel",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "langcode",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "returnurl",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "callbackurl",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "cancelurl",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "s_name",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "s_addr1",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "s_addr2",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "s_zipcode",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "s_city",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "s_state",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "s_country",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "s_merchantID",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "s_merchantURL",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "s_merchantMCC",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "is_escrow",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "non_3DS",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "tcctype",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "token",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "installmonth",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "cash_waittime",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "split_info",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "AppDeeplink",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										}
+									]
+								},
+								"url": {
+									"raw": "https://sandbox.merchant.razer.com/RMS/pay/<merchant id>/CIMBCLICKS.php",
+									"protocol": "https",
+									"host": [
+										"sandbox",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"pay",
+										"<merchant id>",
+										"CIMBCLICKS.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Payment Request",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://sandbox.merchant.razer.com/RMS/pay/<merchant id>/CIMBCLICKS.php?amount=1.10&orderid=DEMO5179&bill_name=MOLPay+Demo&bill_email=demo@molpay.com&bill_mobile=55218438&bill_desc=testing+by+MOLPay",
+									"protocol": "https",
+									"host": [
+										"sandbox",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"pay",
+										"<merchant id>",
+										"CIMBCLICKS.php"
+									],
+									"query": [
+										{
+											"key": "merchant_id",
+											"value": "<merchant id>",
+											"disabled": true
+										},
+										{
+											"key": "amount",
+											"value": "1.10"
+										},
+										{
+											"key": "orderid",
+											"value": "DEMO5179"
+										},
+										{
+											"key": "bill_name",
+											"value": "MOLPay+Demo"
+										},
+										{
+											"key": "bill_email",
+											"value": "demo@molpay.com"
+										},
+										{
+											"key": "bill_mobile",
+											"value": "55218438"
+										},
+										{
+											"key": "bill_desc",
+											"value": "testing+by+MOLPay",
+											"description": "mandatory, alphanumeric, 64kB"
+										},
+										{
+											"key": "b_addr1",
+											"value": "",
+											"description": "optional, mandatory for specific channel",
+											"disabled": true
+										},
+										{
+											"key": "b_addr2",
+											"value": "",
+											"description": "optional, mandatory for specific channel",
+											"disabled": true
+										},
+										{
+											"key": "b_zipcode",
+											"value": "",
+											"description": "optional, mandatory for specific channel",
+											"disabled": true
+										},
+										{
+											"key": "b_city",
+											"value": "",
+											"description": "optional, mandatory for specific channel",
+											"disabled": true
+										},
+										{
+											"key": "vcode",
+											"value": "",
+											"description": "conditional if accept open amount or order payment, such as virtual terminal is optional otherwise is mandatory. 32 chars hexadecimal string",
+											"disabled": true
+										},
+										{
+											"key": "currency",
+											"value": "",
+											"description": "optional, 3 chars ISO-4217 currency code",
+											"disabled": true
+										},
+										{
+											"key": "channel",
+											"value": "",
+											"description": "optional, predefined string. Refer to the channel column in the Channel Lists.",
+											"disabled": true
+										},
+										{
+											"key": "langcode",
+											"value": "",
+											"description": "optional, predefined string. Currently only en for English & cn for Simplified Chinese.",
+											"disabled": true
+										},
+										{
+											"key": "returnurl",
+											"value": "",
+											"description": "optional, URL",
+											"disabled": true
+										},
+										{
+											"key": "callbackurl",
+											"value": "",
+											"description": "optional, URL",
+											"disabled": true
+										},
+										{
+											"key": "cancelurl",
+											"value": "",
+											"description": "optional, URL",
+											"disabled": true
+										},
+										{
+											"key": "s_name",
+											"value": "",
+											"description": "optional, mandatory for specific channel",
+											"disabled": true
+										},
+										{
+											"key": "s_addr1",
+											"value": "",
+											"description": "optional, mandatory for specific channel",
+											"disabled": true
+										},
+										{
+											"key": "s_addr2",
+											"value": "",
+											"description": "optional, mandatory for specific channel",
+											"disabled": true
+										},
+										{
+											"key": "s_zipcode",
+											"value": "",
+											"description": "optional, mandatory for specific channel",
+											"disabled": true
+										},
+										{
+											"key": "s_city",
+											"value": "",
+											"description": "optional, mandatory for specific channel",
+											"disabled": true
+										},
+										{
+											"key": "s_state",
+											"value": "",
+											"description": "optional, mandatory for specific channel",
+											"disabled": true
+										},
+										{
+											"key": "s_country",
+											"value": "",
+											"description": "optional, mandatory for specific channel",
+											"disabled": true
+										},
+										{
+											"key": "s_merchantID",
+											"value": "",
+											"description": "conditional for partne",
+											"disabled": true
+										},
+										{
+											"key": "s_merchantURL",
+											"value": "",
+											"description": "conditional for partne",
+											"disabled": true
+										},
+										{
+											"key": "s_merchantMCC",
+											"value": "",
+											"description": "conditional for partne",
+											"disabled": true
+										},
+										{
+											"key": "is_escrow",
+											"value": "",
+											"description": "optional, for escrow payment",
+											"disabled": true
+										},
+										{
+											"key": "non_3DS",
+											"value": "",
+											"description": "conditional for partner, 0 or 1",
+											"disabled": true
+										},
+										{
+											"key": "tcctype",
+											"value": "",
+											"description": "optional, for card type transaction",
+											"disabled": true
+										},
+										{
+											"key": "token",
+											"value": "",
+											"description": "optional",
+											"disabled": true
+										},
+										{
+											"key": "installmonth",
+											"value": "",
+											"description": "optional, mandatory for installment payment",
+											"disabled": true
+										},
+										{
+											"key": "cash_waittime",
+											"value": "",
+											"description": "optional, integer",
+											"disabled": true
+										},
+										{
+											"key": "split_info",
+											"value": "",
+											"description": "optional, alphanumeric with pipe ( | ) as data  delimiter and comma ( , ) as recipient separato",
+											"disabled": true
+										},
+										{
+											"key": "AppDeeplink",
+											"value": "",
+											"description": "optional, URL",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Merchant",
+					"item": [
+						{
+							"name": "Direct Status Requery",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "amount",
+											"value": "1.10",
+											"description": "The payment amount",
+											"type": "text"
+										},
+										{
+											"key": "txID",
+											"value": "30365812",
+											"description": "Unique transaction ID for tracking purpose",
+											"type": "text"
+										},
+										{
+											"key": "domain",
+											"value": "<merchant id>",
+											"description": "Merchant ID in PG system",
+											"type": "text"
+										},
+										{
+											"key": "skey",
+											"value": "5baa764fc1d66eb368f9db59193f3f58",
+											"description": "skey = md5( txID & domain & verify_key & amount )",
+											"type": "text"
+										},
+										{
+											"key": "url",
+											"value": "",
+											"description": "The URL to receive POST response from PG",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "type",
+											"value": "",
+											"description": "0 = plain text result (default)\n1 = result via POST method",
+											"type": "text",
+											"disabled": true
+										}
+									]
+								},
+								"url": {
+									"raw": "https://sandbox.merchant.razer.com/RMS/API/gate-query/index.php",
+									"protocol": "https",
+									"host": [
+										"sandbox",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"API",
+										"gate-query",
+										"index.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Direct Status Requery",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://sandbox.merchant.razer.com/RMS/API/gate-query/index.php?amount=1.10&txID=30365812&domain=<merchant id>&skey=5baa764fc1d66eb368f9db59193f3f58",
+									"protocol": "https",
+									"host": [
+										"sandbox",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"API",
+										"gate-query",
+										"index.php"
+									],
+									"query": [
+										{
+											"key": "amount",
+											"value": "1.10"
+										},
+										{
+											"key": "txID",
+											"value": "30365812"
+										},
+										{
+											"key": "domain",
+											"value": "<merchant id>"
+										},
+										{
+											"key": "skey",
+											"value": "5baa764fc1d66eb368f9db59193f3f58"
+										},
+										{
+											"key": "url",
+											"value": "",
+											"disabled": true
+										},
+										{
+											"key": "type",
+											"value": "",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Indirect Status Requery",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "amount",
+											"value": "1.10",
+											"type": "text"
+										},
+										{
+											"key": "txID",
+											"value": "30365812",
+											"type": "text"
+										},
+										{
+											"key": "domain",
+											"value": "<merchant id>",
+											"type": "text"
+										},
+										{
+											"key": "skey",
+											"value": "5baa764fc1d66eb368f9db59193f3f58",
+											"type": "text"
+										},
+										{
+											"key": "url",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "type",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										}
+									]
+								},
+								"url": {
+									"raw": "https://sandbox.merchant.razer.com/RMS/q_by_tid.php",
+									"protocol": "https",
+									"host": [
+										"sandbox",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"q_by_tid.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Indirect Status Requery",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://sandbox.merchant.razer.com/RMS/q_by_tid.php?amount=1.10&txID=30365812&domain=<merchant id>&skey=5baa764fc1d66eb368f9db59193f3f58",
+									"protocol": "https",
+									"host": [
+										"sandbox",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"q_by_tid.php"
+									],
+									"query": [
+										{
+											"key": "amount",
+											"value": "1.10"
+										},
+										{
+											"key": "txID",
+											"value": "30365812"
+										},
+										{
+											"key": "domain",
+											"value": "<merchant id>"
+										},
+										{
+											"key": "skey",
+											"value": "5baa764fc1d66eb368f9db59193f3f58"
+										},
+										{
+											"key": "url",
+											"value": "",
+											"disabled": true
+										},
+										{
+											"key": "type",
+											"value": "",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Daily Transaction Report (Reconciliation)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "merchantID",
+											"value": "<merchant id>",
+											"description": "Merchant ID in PG system",
+											"type": "text"
+										},
+										{
+											"key": "skey",
+											"value": "896451ba9c98054114bc0e591910048a",
+											"description": "skey   =md5( rdate & merchantID & secret_key )",
+											"type": "text"
+										},
+										{
+											"key": "rdate",
+											"value": "2021-09-30",
+											"description": "The date or beginning time of transactions to query\n2020-10-10 or 2020-10-10 07:11:24",
+											"type": "text"
+										},
+										{
+											"key": "rduration",
+											"value": "",
+											"description": "Without rduration, the search duration is 24 hours or 86400 seconds starting from rdate",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "status",
+											"value": "",
+											"description": "00 - success\n11 - failed\n22 - pending\n\nCombine with delimiter “|” for multiple status or left empty for all status",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "version",
+											"value": "2",
+											"description": "2 or 3",
+											"type": "text"
+										},
+										{
+											"key": "additional_fields",
+											"value": "",
+											"description": "TransactionRate - transaction rate\nBillingInfo - billing info\nTransactionCost - transaction cost\nChannel - channel\nBillingMobileNumber - billing mobile\nTransactionFee - transaction fee\nGST - GST (tax)\nNetAmount - net amount\nIPAddress - IP address\nBankName - bank name\nBIN - card no (hidden)\nExpiryDate - card expiry date\nStatusDescription - status description\nSettlementDate - settlement date\nPaidDate - paid date\nTerminalID - terminal ID\nPayTransactionID - transaction ID\nBuyerName - buyer name\nCaptureRefID - Capture Reference ID (Only in v3)\nRefundRefID - Refund Reference ID (Only in v3)\nall - for all additional fields\n\nCombine with delimiter “,” for multiple fields\n",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "response_type",
+											"value": "",
+											"description": "Response format in either text/json/csv(only in v2 and v3)",
+											"type": "text",
+											"disabled": true
+										}
+									]
+								},
+								"url": {
+									"raw": "https://sandbox.merchant.razer.com/RMS/API/PSQ/psq-daily.php",
+									"protocol": "https",
+									"host": [
+										"sandbox",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"API",
+										"PSQ",
+										"psq-daily.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Daily Transaction Report (Reconciliation)",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://sandbox.merchant.razer.com/RMS/API/PSQ/psq-daily.php?merchantID=<merchant id>&skey=896451ba9c98054114bc0e591910048a&rdate=2021-09-30&version=2",
+									"protocol": "https",
+									"host": [
+										"sandbox",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"API",
+										"PSQ",
+										"psq-daily.php"
+									],
+									"query": [
+										{
+											"key": "merchantID",
+											"value": "<merchant id>"
+										},
+										{
+											"key": "skey",
+											"value": "896451ba9c98054114bc0e591910048a"
+										},
+										{
+											"key": "rdate",
+											"value": "2021-09-30"
+										},
+										{
+											"key": "rduration",
+											"value": "",
+											"disabled": true
+										},
+										{
+											"key": "status",
+											"value": "",
+											"disabled": true
+										},
+										{
+											"key": "version",
+											"value": "2"
+										},
+										{
+											"key": "additional_fields",
+											"value": "",
+											"disabled": true
+										},
+										{
+											"key": "response_type",
+											"value": "",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Settlement Report (Reconciliation)",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": []
+								},
+								"url": {
+									"raw": "https://sandbox.merchant.razer.com/RMS/API/settlement/report.php?version=5.0&merchant_id=<merchant id>&token=8c4cc55492613d6b96f8d5b7cba615f7&date=2021-09-30&format=csv&page=1",
+									"protocol": "https",
+									"host": [
+										"sandbox",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"API",
+										"settlement",
+										"report.php"
+									],
+									"query": [
+										{
+											"key": "version",
+											"value": "5.0",
+											"description": "Indicate version of the API. Current version is 5.0. If not specified, version 1.0 will be used."
+										},
+										{
+											"key": "merchant_id",
+											"value": "<merchant id>",
+											"description": "Merchant ID in PG system"
+										},
+										{
+											"key": "token",
+											"value": "8c4cc55492613d6b96f8d5b7cba615f7",
+											"description": "token =md5( merchantID & secret_key & date )"
+										},
+										{
+											"key": "date",
+											"value": "2021-09-30",
+											"description": "The date of settlement to query"
+										},
+										{
+											"key": "format",
+											"value": "csv",
+											"description": "Recommend to use csv for large file"
+										},
+										{
+											"key": "download",
+											"value": null,
+											"description": "Download option is only available for CSV format",
+											"disabled": true
+										},
+										{
+											"key": "page",
+											"value": "1",
+											"description": "Determines the page to view for D records that have a limit of 5000 transactions. Currently available to version 5.0"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Capture Request (For pre-auth or authorized transaction)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "domain",
+											"value": "<merchant id>",
+											"description": "Merchant ID in PG system",
+											"type": "text"
+										},
+										{
+											"key": "tranID",
+											"value": "30365812",
+											"description": "Unique PG transaction ID",
+											"type": "text"
+										},
+										{
+											"key": "amount",
+											"value": "1.10",
+											"description": "The total amount paid or to be paid",
+											"type": "text"
+										},
+										{
+											"key": "RefID",
+											"value": "DEMO637",
+											"description": "Reference ID for tracking purpose sent by merchant",
+											"type": "text"
+										},
+										{
+											"key": "skey",
+											"value": "6c81888358f4058f1fb05f0fde5c03cd",
+											"description": "skey   =md5( txnID & amount & domain & verify_key )",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://sandbox.merchant.razer.com/RMS/API/capstxn/index.php",
+									"protocol": "https",
+									"host": [
+										"sandbox",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"API",
+										"capstxn",
+										"index.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Capture Request (For pre-auth or authorized transaction)",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://sandbox.merchant.razer.com/RMS/API/capstxn/index.php?domain=<merchant id>&tranID=30365812&amount=1.10&RefID=DEMO637&skey=6c81888358f4058f1fb05f0fde5c03cd",
+									"protocol": "https",
+									"host": [
+										"sandbox",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"API",
+										"capstxn",
+										"index.php"
+									],
+									"query": [
+										{
+											"key": "domain",
+											"value": "<merchant id>"
+										},
+										{
+											"key": "tranID",
+											"value": "30365812"
+										},
+										{
+											"key": "amount",
+											"value": "1.10"
+										},
+										{
+											"key": "RefID",
+											"value": "DEMO637"
+										},
+										{
+											"key": "skey",
+											"value": "6c81888358f4058f1fb05f0fde5c03cd"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Reversal Request",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "txnID",
+											"value": "30365812",
+											"description": "Unique transaction ID for tracking purpose",
+											"type": "text"
+										},
+										{
+											"key": "domain",
+											"value": "<merchant id>",
+											"description": "Merchant ID in PG system",
+											"type": "text"
+										},
+										{
+											"key": "skey",
+											"value": "23031da5947a366e1997cf99d2aa75de",
+											"description": "skey   =md5( txnID & domain & secret_key)",
+											"type": "text"
+										},
+										{
+											"key": "url",
+											"value": "",
+											"description": "The URL to receive POST response from PG",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "type",
+											"value": "",
+											"description": "0 = plain text result (default)\n1 = result via POST method",
+											"type": "text",
+											"disabled": true
+										}
+									]
+								},
+								"url": {
+									"raw": "https://sandbox.merchant.razer.com/RMS/API/refundAPI/refund.php",
+									"protocol": "https",
+									"host": [
+										"sandbox",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"API",
+										"refundAPI",
+										"refund.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Reversal Request",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://sandbox.merchant.razer.com/RMS/API/refundAPI/refund.php?txnID=30365812&domain=<merchant id>&skey=23031da5947a366e1997cf99d2aa75de",
+									"protocol": "https",
+									"host": [
+										"sandbox",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"API",
+										"refundAPI",
+										"refund.php"
+									],
+									"query": [
+										{
+											"key": "txnID",
+											"value": "30365812"
+										},
+										{
+											"key": "domain",
+											"value": "<merchant id>"
+										},
+										{
+											"key": "skey",
+											"value": "23031da5947a366e1997cf99d2aa75de"
+										},
+										{
+											"key": "url",
+											"value": "",
+											"disabled": true
+										},
+										{
+											"key": "type",
+											"value": "",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Advanced Full/Partial Refund",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "RefundType",
+											"value": "P",
+											"description": "P - Partial Refund",
+											"type": "text"
+										},
+										{
+											"key": "MerchantID",
+											"value": "<merchant id>",
+											"description": "Merchant ID provided by PG",
+											"type": "text"
+										},
+										{
+											"key": "RefID",
+											"value": "DEMO637",
+											"description": "Unique reference ID for tracking purpose sent by merchant",
+											"type": "text"
+										},
+										{
+											"key": "TxnID",
+											"value": "30365812",
+											"description": "PG Transaction ID",
+											"type": "text"
+										},
+										{
+											"key": "Amount",
+											"value": "1.10",
+											"description": "eg. ‘5.00’ Amount to be refunded",
+											"type": "text"
+										},
+										{
+											"key": "BankCode",
+											"value": "",
+											"description": "Applicable for Online Banking and Physical Payment transactions only. (Refer to predefined bank lists",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "BankCountry",
+											"value": "",
+											"description": "Applicable for Online Banking and Physical Payment transactions only. Two letters country ISO code. (Default value: MY)",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "BeneficiaryName",
+											"value": "",
+											"description": "Applicable for Online Banking and Physical Payment transactions only.",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "BeneficiaryAccNo",
+											"value": "",
+											"description": "Applicable for Online Banking and Physical Payment transactions only.",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "Signature",
+											"value": "17136900a6ece7cedd0134282c9d5b45",
+											"description": "Signature = md5(  RefundType .  MerchantID .  RefID .  TxnID .  Amount . secret_key )",
+											"type": "text"
+										},
+										{
+											"key": "mdr_flag",
+											"value": "",
+											"description": "This is to include or exclude MDR refund to the buyer if the amount is same as bill amount.\nAvailable value is as below:\n0 - Include MDR/Full Refund (Default)\n1 - Exclude/Reserved MDR",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "notify_url",
+											"value": "",
+											"description": "This is the URL for merchant to receive refund status (same response as this API), either 00 (Success) or 11 (Rejected)  with slightly different Signature",
+											"type": "text",
+											"disabled": true
+										}
+									]
+								},
+								"url": {
+									"raw": "https://sandbox.merchant.razer.com/RMS/API/refundAPI/index.php",
+									"protocol": "https",
+									"host": [
+										"sandbox",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"API",
+										"refundAPI",
+										"index.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Advanced Full/Partial Refund",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://sandbox.merchant.razer.com/RMS/API/refundAPI/index.php?RefundType=P&MerchantID=<merchant id>&RefID=DEMO637&TxnID=30365812&Amount=1.10&Signature=17136900a6ece7cedd0134282c9d5b45",
+									"protocol": "https",
+									"host": [
+										"sandbox",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"API",
+										"refundAPI",
+										"index.php"
+									],
+									"query": [
+										{
+											"key": "RefundType",
+											"value": "P"
+										},
+										{
+											"key": "MerchantID",
+											"value": "<merchant id>"
+										},
+										{
+											"key": "RefID",
+											"value": "DEMO637"
+										},
+										{
+											"key": "TxnID",
+											"value": "30365812"
+										},
+										{
+											"key": "Amount",
+											"value": "1.10"
+										},
+										{
+											"key": "BankCode",
+											"value": "",
+											"disabled": true
+										},
+										{
+											"key": "BankCountry",
+											"value": "",
+											"disabled": true
+										},
+										{
+											"key": "BeneficiaryName",
+											"value": "",
+											"disabled": true
+										},
+										{
+											"key": "BeneficiaryAccNo",
+											"value": "",
+											"disabled": true
+										},
+										{
+											"key": "Signature",
+											"value": "17136900a6ece7cedd0134282c9d5b45"
+										},
+										{
+											"key": "mdr_flag",
+											"value": "",
+											"disabled": true
+										},
+										{
+											"key": "notify_url",
+											"value": "",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Partial Refund Status Inquiry by TxnID/RefID",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "TxnID",
+											"value": "30365812",
+											"description": "PG Transaction ID",
+											"type": "text"
+										},
+										{
+											"key": "MerchantID",
+											"value": "<merchant id>",
+											"description": "Merchant ID provided by PG",
+											"type": "text"
+										},
+										{
+											"key": "Signature",
+											"value": "23031da5947a366e1997cf99d2aa75de",
+											"description": "Signature = md5(  TxnID .  MerchantID .  verify_key )",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://sandbox.merchant.razer.com/RMS/API/refundAPI/q_by_txn.php",
+									"protocol": "https",
+									"host": [
+										"sandbox",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"API",
+										"refundAPI",
+										"q_by_txn.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Partial Refund Status Inquiry by TxnID/RefID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://sandbox.merchant.razer.com/RMS/API/refundAPI/q_by_txn.php?TxnID=30365812&MerchantID=<merchant id>&Signature=23031da5947a366e1997cf99d2aa75de",
+									"protocol": "https",
+									"host": [
+										"sandbox",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"API",
+										"refundAPI",
+										"q_by_txn.php"
+									],
+									"query": [
+										{
+											"key": "TxnID",
+											"value": "30365812"
+										},
+										{
+											"key": "MerchantID",
+											"value": "<merchant id>"
+										},
+										{
+											"key": "Signature",
+											"value": "23031da5947a366e1997cf99d2aa75de"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Static QR-Code Generator",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "merchantID",
+											"value": "<merchant id>",
+											"description": "Merchant ID provided by PG",
+											"type": "text"
+										},
+										{
+											"key": "channel",
+											"value": "WeChatPaySQR",
+											"description": "Channel requested:\nAlipaySQR - Alipay Static QR\nWeChatPaySQR - WeChat Pay Static QR\n",
+											"type": "text"
+										},
+										{
+											"key": "orderid",
+											"value": "DEMO637",
+											"description": "Items ID. E.g: S001",
+											"type": "text"
+										},
+										{
+											"key": "currency",
+											"value": "MYR",
+											"description": "ISO-4217 currency code",
+											"type": "text"
+										},
+										{
+											"key": "amount",
+											"value": "1.10",
+											"description": "The total amount to be paid in one purchase order. 2 decimal points and comma( , ) is not allowed",
+											"type": "text"
+										},
+										{
+											"key": "bill_name",
+											"value": "itemname",
+											"description": "Items name",
+											"type": "text"
+										},
+										{
+											"key": "bill_desc",
+											"value": "itemdesc",
+											"description": "Item description",
+											"type": "text"
+										},
+										{
+											"key": "checksum",
+											"value": "5d6bca8f6029e19a7f70750753fc0425",
+											"description": "Checksum = md5(  merchantID . channel . orderid . currency . amount  .  verify_key )",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://sandbox.merchant.razer.com/RMS/API/staticqr/index.php",
+									"protocol": "https",
+									"host": [
+										"sandbox",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"API",
+										"staticqr",
+										"index.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Static QR-Code Generator",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://sandbox.merchant.razer.com/RMS/API/staticqr/index.php?merchantID=<merchant id>&channel=WeChatPaySQR&orderid=DEMO637&currency=MYR&amount=1.10&bill_name=itemname&bill_desc=itemdesc&checksum=5d6bca8f6029e19a7f70750753fc0425",
+									"protocol": "https",
+									"host": [
+										"sandbox",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"API",
+										"staticqr",
+										"index.php"
+									],
+									"query": [
+										{
+											"key": "merchantID",
+											"value": "<merchant id>"
+										},
+										{
+											"key": "channel",
+											"value": "WeChatPaySQR"
+										},
+										{
+											"key": "orderid",
+											"value": "DEMO637"
+										},
+										{
+											"key": "currency",
+											"value": "MYR"
+										},
+										{
+											"key": "amount",
+											"value": "1.10"
+										},
+										{
+											"key": "bill_name",
+											"value": "itemname"
+										},
+										{
+											"key": "bill_desc",
+											"value": "itemdesc"
+										},
+										{
+											"key": "checksum",
+											"value": "5d6bca8f6029e19a7f70750753fc0425"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Channel Status API",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://sandbox.merchant.razer.com/RMS/API/chkstat/OK-rate.php?domain=<merchant id>&reqTime=20161202153423&reqType=Global&skey=5d6bca8f6029e19a7f70750753fc0425&duration=3",
+									"protocol": "https",
+									"host": [
+										"sandbox",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"API",
+										"chkstat",
+										"OK-rate.php"
+									],
+									"query": [
+										{
+											"key": "domain",
+											"value": "<merchant id>",
+											"description": "Merchant ID in PG system"
+										},
+										{
+											"key": "reqTime",
+											"value": "20161202153423",
+											"description": "Request date & time, e.g. 20161202153423"
+										},
+										{
+											"key": "reqType",
+											"value": "Global",
+											"description": "Global: system-wide OK rate\nMerchant: merchant only OK rate"
+										},
+										{
+											"key": "skey",
+											"value": "5d6bca8f6029e19a7f70750753fc0425",
+											"description": "skey  = md5( domain & secret_key & reqTime & reqType )"
+										},
+										{
+											"key": "duration",
+											"value": "3",
+											"description": "Latest sampling window size in HOUR for merchant-only request. If the total sampling number is less than 30, it has less reference value due to the low statistical significance and n/a will be given"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Card BIN information API",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://sandbox.merchant.razer.com/RMS/query/q_BINinfo.php?domain=<merchant id>&skey=5d6bca8f6029e19a7f70750753fc0425&BIN=519603",
+									"protocol": "https",
+									"host": [
+										"sandbox",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"query",
+										"q_BINinfo.php"
+									],
+									"query": [
+										{
+											"key": "domain",
+											"value": "<merchant id>",
+											"description": "Merchant ID in PG system"
+										},
+										{
+											"key": "skey",
+											"value": "5d6bca8f6029e19a7f70750753fc0425",
+											"description": "skey  = md5( domain & secret_key & BIN )"
+										},
+										{
+											"key": "BIN",
+											"value": "519603",
+											"description": "First 6-digit number of the PAN, e.g. 519603"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Foreign Exchange Rate API",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://sandbox.merchant.razer.com/RMS/query/q_fx_rate.php?domain=<merchant id>&reqtime=20161202&source=Maybank&skey=5d6bca8f6029e19a7f70750753fc0425",
+									"protocol": "https",
+									"host": [
+										"sandbox",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"query",
+										"q_fx_rate.php"
+									],
+									"query": [
+										{
+											"key": "domain",
+											"value": "<merchant id>",
+											"description": "Merchant ID in PG system"
+										},
+										{
+											"key": "reqtime",
+											"value": "20161202",
+											"description": "Request date & time, e.g. 20161202"
+										},
+										{
+											"key": "source",
+											"value": "Maybank",
+											"description": "Predefined value as below:\nBNM\nMaybank\n"
+										},
+										{
+											"key": "skey",
+											"value": "5d6bca8f6029e19a7f70750753fc0425",
+											"description": "skey  = md5( domain & secret_key & reqTime )"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Void Pending-Cash API",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "tranID",
+											"value": "30365812",
+											"description": "PG Transaction ID",
+											"type": "text"
+										},
+										{
+											"key": "amount",
+											"value": "1.10",
+											"description": "The total amount to be paid in one purchase order. 2 decimal points, comma( , ) is not allowed.",
+											"type": "text"
+										},
+										{
+											"key": "merchantID",
+											"value": "<merchant id>",
+											"description": "Merchant ID provided by PG",
+											"type": "text"
+										},
+										{
+											"key": "checksum",
+											"value": "5d6bca8f6029e19a7f70750753fc0425",
+											"description": "Checksum= md5(  tranID . amount . merchantID .  verify_key )",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://sandbox.merchant.razer.com/RMS/API/VoidPendingCash/index.php",
+									"protocol": "https",
+									"host": [
+										"sandbox",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"API",
+										"VoidPendingCash",
+										"index.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Void Pending-Cash API",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://sandbox.merchant.razer.com/RMS/API/VoidPendingCash/index.php?tranID=30365812&amount=1.10&merchantID=<merchant id>&checksum=5d6bca8f6029e19a7f70750753fc0425",
+									"protocol": "https",
+									"host": [
+										"sandbox",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"API",
+										"VoidPendingCash",
+										"index.php"
+									],
+									"query": [
+										{
+											"key": "tranID",
+											"value": "30365812"
+										},
+										{
+											"key": "amount",
+											"value": "1.10"
+										},
+										{
+											"key": "merchantID",
+											"value": "<merchant id>"
+										},
+										{
+											"key": "checksum",
+											"value": "5d6bca8f6029e19a7f70750753fc0425"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Recurring Plans API",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "domain",
+											"value": "<merchant id>",
+											"description": "Merchant ID provided by PG",
+											"type": "text"
+										},
+										{
+											"key": "charge_on_endofmonth",
+											"value": "",
+											"description": "Predefined value as below:\nY\nN\n",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "period",
+											"value": "",
+											"description": "Predefined value as below:\nmonth\nweek\nday\nyear\nquarter\nhalfyear\nbimonth\nbiweek\n",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "cycle_term",
+											"value": "",
+											"description": "Billing cycle (E.g. ‘6’, ‘12’, ‘24’)",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "status",
+											"value": "",
+											"description": "Predefined value as below:\nOn\nOff\nNA\n",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "skey",
+											"value": "5d6bca8f6029e19a7f70750753fc0425",
+											"description": "skey  = md5( domain & secret_key & charge_on_endofmonth & period & cycle_term & status)",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://sandbox.merchant.razer.com/RMS/API/Recurring/get_plans.php",
+									"protocol": "https",
+									"host": [
+										"sandbox",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"API",
+										"Recurring",
+										"get_plans.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Recurring Plans API",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://sandbox.merchant.razer.com/RMS/API/Recurring/get_plans.php?domain=<merchant id>&skey=5d6bca8f6029e19a7f70750753fc0425",
+									"protocol": "https",
+									"host": [
+										"sandbox",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"API",
+										"Recurring",
+										"get_plans.php"
+									],
+									"query": [
+										{
+											"key": "domain",
+											"value": "<merchant id>"
+										},
+										{
+											"key": "charge_on_endofmonth",
+											"value": "",
+											"disabled": true
+										},
+										{
+											"key": "period",
+											"value": "",
+											"disabled": true
+										},
+										{
+											"key": "cycle_term",
+											"value": "",
+											"disabled": true
+										},
+										{
+											"key": "status",
+											"value": "",
+											"disabled": true
+										},
+										{
+											"key": "skey",
+											"value": "5d6bca8f6029e19a7f70750753fc0425"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Production",
+			"item": [
+				{
+					"name": "Payment",
+					"item": [
+						{
+							"name": "Payment Request",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "merchant_id",
+											"value": "<merchant id>",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "amount",
+											"value": "1.10",
+											"type": "text"
+										},
+										{
+											"key": "orderid",
+											"value": "DEMO5179",
+											"type": "text"
+										},
+										{
+											"key": "bill_name",
+											"value": "MOLPay+Demo",
+											"type": "text"
+										},
+										{
+											"key": "bill_email",
+											"value": "demo@molpay.com",
+											"type": "text"
+										},
+										{
+											"key": "bill_mobile",
+											"value": "55218438",
+											"type": "text"
+										},
+										{
+											"key": "bill_desc",
+											"value": "testing+by+MOLPay",
+											"type": "text"
+										},
+										{
+											"key": "b_addr1",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "b_addr2",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "b_zipcode",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "b_city",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "vcode",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "currency",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "channel",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "langcode",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "returnurl",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "callbackurl",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "cancelurl",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "s_name",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "s_addr1",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "s_addr2",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "s_zipcode",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "s_city",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "s_state",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "s_country",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "s_merchantID",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "s_merchantURL",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "s_merchantMCC",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "is_escrow",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "non_3DS",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "tcctype",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "token",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "installmonth",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "cash_waittime",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "split_info",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "AppDeeplink",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										}
+									]
+								},
+								"url": {
+									"raw": "https://pay.merchant.razer.com/RMS/pay/<merchant id>/CIMBCLICKS.php",
+									"protocol": "https",
+									"host": [
+										"pay",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"pay",
+										"<merchant id>",
+										"CIMBCLICKS.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Payment Request",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://pay.merchant.razer.com/RMS/pay/<merchant id>/CIMBCLICKS.php?amount=1.10&orderid=DEMO5179&bill_name=MOLPay+Demo&bill_email=demo@molpay.com&bill_mobile=55218438&bill_desc=testing+by+MOLPay",
+									"protocol": "https",
+									"host": [
+										"pay",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"pay",
+										"<merchant id>",
+										"CIMBCLICKS.php"
+									],
+									"query": [
+										{
+											"key": "merchant_id",
+											"value": "<merchant id>",
+											"disabled": true
+										},
+										{
+											"key": "amount",
+											"value": "1.10"
+										},
+										{
+											"key": "orderid",
+											"value": "DEMO5179"
+										},
+										{
+											"key": "bill_name",
+											"value": "MOLPay+Demo"
+										},
+										{
+											"key": "bill_email",
+											"value": "demo@molpay.com"
+										},
+										{
+											"key": "bill_mobile",
+											"value": "55218438"
+										},
+										{
+											"key": "bill_desc",
+											"value": "testing+by+MOLPay",
+											"description": "mandatory, alphanumeric, 64kB"
+										},
+										{
+											"key": "b_addr1",
+											"value": "",
+											"description": "optional, mandatory for specific channel",
+											"disabled": true
+										},
+										{
+											"key": "b_addr2",
+											"value": "",
+											"description": "optional, mandatory for specific channel",
+											"disabled": true
+										},
+										{
+											"key": "b_zipcode",
+											"value": "",
+											"description": "optional, mandatory for specific channel",
+											"disabled": true
+										},
+										{
+											"key": "b_city",
+											"value": "",
+											"description": "optional, mandatory for specific channel",
+											"disabled": true
+										},
+										{
+											"key": "vcode",
+											"value": "",
+											"description": "conditional if accept open amount or order payment, such as virtual terminal is optional otherwise is mandatory. 32 chars hexadecimal string",
+											"disabled": true
+										},
+										{
+											"key": "currency",
+											"value": "",
+											"description": "optional, 3 chars ISO-4217 currency code",
+											"disabled": true
+										},
+										{
+											"key": "channel",
+											"value": "",
+											"description": "optional, predefined string. Refer to the channel column in the Channel Lists.",
+											"disabled": true
+										},
+										{
+											"key": "langcode",
+											"value": "",
+											"description": "optional, predefined string. Currently only en for English & cn for Simplified Chinese.",
+											"disabled": true
+										},
+										{
+											"key": "returnurl",
+											"value": "",
+											"description": "optional, URL",
+											"disabled": true
+										},
+										{
+											"key": "callbackurl",
+											"value": "",
+											"description": "optional, URL",
+											"disabled": true
+										},
+										{
+											"key": "cancelurl",
+											"value": "",
+											"description": "optional, URL",
+											"disabled": true
+										},
+										{
+											"key": "s_name",
+											"value": "",
+											"description": "optional, mandatory for specific channel",
+											"disabled": true
+										},
+										{
+											"key": "s_addr1",
+											"value": "",
+											"description": "optional, mandatory for specific channel",
+											"disabled": true
+										},
+										{
+											"key": "s_addr2",
+											"value": "",
+											"description": "optional, mandatory for specific channel",
+											"disabled": true
+										},
+										{
+											"key": "s_zipcode",
+											"value": "",
+											"description": "optional, mandatory for specific channel",
+											"disabled": true
+										},
+										{
+											"key": "s_city",
+											"value": "",
+											"description": "optional, mandatory for specific channel",
+											"disabled": true
+										},
+										{
+											"key": "s_state",
+											"value": "",
+											"description": "optional, mandatory for specific channel",
+											"disabled": true
+										},
+										{
+											"key": "s_country",
+											"value": "",
+											"description": "optional, mandatory for specific channel",
+											"disabled": true
+										},
+										{
+											"key": "s_merchantID",
+											"value": "",
+											"description": "conditional for partne",
+											"disabled": true
+										},
+										{
+											"key": "s_merchantURL",
+											"value": "",
+											"description": "conditional for partne",
+											"disabled": true
+										},
+										{
+											"key": "s_merchantMCC",
+											"value": "",
+											"description": "conditional for partne",
+											"disabled": true
+										},
+										{
+											"key": "is_escrow",
+											"value": "",
+											"description": "optional, for escrow payment",
+											"disabled": true
+										},
+										{
+											"key": "non_3DS",
+											"value": "",
+											"description": "conditional for partner, 0 or 1",
+											"disabled": true
+										},
+										{
+											"key": "tcctype",
+											"value": "",
+											"description": "optional, for card type transaction",
+											"disabled": true
+										},
+										{
+											"key": "token",
+											"value": "",
+											"description": "optional",
+											"disabled": true
+										},
+										{
+											"key": "installmonth",
+											"value": "",
+											"description": "optional, mandatory for installment payment",
+											"disabled": true
+										},
+										{
+											"key": "cash_waittime",
+											"value": "",
+											"description": "optional, integer",
+											"disabled": true
+										},
+										{
+											"key": "split_info",
+											"value": "",
+											"description": "optional, alphanumeric with pipe ( | ) as data  delimiter and comma ( , ) as recipient separato",
+											"disabled": true
+										},
+										{
+											"key": "AppDeeplink",
+											"value": "",
+											"description": "optional, URL",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Merchant",
+					"item": [
+						{
+							"name": "Direct Status Requery",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "amount",
+											"value": "1.10",
+											"description": "The payment amount",
+											"type": "text"
+										},
+										{
+											"key": "txID",
+											"value": "30365812",
+											"description": "Unique transaction ID for tracking purpose",
+											"type": "text"
+										},
+										{
+											"key": "domain",
+											"value": "<merchant id>",
+											"description": "Merchant ID in PG system",
+											"type": "text"
+										},
+										{
+											"key": "skey",
+											"value": "5baa764fc1d66eb368f9db59193f3f58",
+											"description": "skey = md5( txID & domain & verify_key & amount )",
+											"type": "text"
+										},
+										{
+											"key": "url",
+											"value": "",
+											"description": "The URL to receive POST response from PG",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "type",
+											"value": "",
+											"description": "0 = plain text result (default)\n1 = result via POST method",
+											"type": "text",
+											"disabled": true
+										}
+									]
+								},
+								"url": {
+									"raw": "https://api.merchant.razer.com/RMS/API/gate-query/index.php",
+									"protocol": "https",
+									"host": [
+										"api",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"API",
+										"gate-query",
+										"index.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Direct Status Requery",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://api.merchant.razer.com/RMS/API/gate-query/index.php?amount=1.10&txID=30365812&domain=<merchant id>&skey=5baa764fc1d66eb368f9db59193f3f58",
+									"protocol": "https",
+									"host": [
+										"api",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"API",
+										"gate-query",
+										"index.php"
+									],
+									"query": [
+										{
+											"key": "amount",
+											"value": "1.10"
+										},
+										{
+											"key": "txID",
+											"value": "30365812"
+										},
+										{
+											"key": "domain",
+											"value": "<merchant id>"
+										},
+										{
+											"key": "skey",
+											"value": "5baa764fc1d66eb368f9db59193f3f58"
+										},
+										{
+											"key": "url",
+											"value": "",
+											"disabled": true
+										},
+										{
+											"key": "type",
+											"value": "",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Indirect Status Requery",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "amount",
+											"value": "1.10",
+											"type": "text"
+										},
+										{
+											"key": "txID",
+											"value": "30365812",
+											"type": "text"
+										},
+										{
+											"key": "domain",
+											"value": "<merchant id>",
+											"type": "text"
+										},
+										{
+											"key": "skey",
+											"value": "5baa764fc1d66eb368f9db59193f3f58",
+											"type": "text"
+										},
+										{
+											"key": "url",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "type",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										}
+									]
+								},
+								"url": {
+									"raw": "https://api.merchant.razer.com/RMS/q_by_tid.php",
+									"protocol": "https",
+									"host": [
+										"api",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"q_by_tid.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Indirect Status Requery",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://api.merchant.razer.com/RMS/q_by_tid.php?amount=1.10&txID=30365812&domain=<merchant id>&skey=5baa764fc1d66eb368f9db59193f3f58",
+									"protocol": "https",
+									"host": [
+										"api",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"q_by_tid.php"
+									],
+									"query": [
+										{
+											"key": "amount",
+											"value": "1.10"
+										},
+										{
+											"key": "txID",
+											"value": "30365812"
+										},
+										{
+											"key": "domain",
+											"value": "<merchant id>"
+										},
+										{
+											"key": "skey",
+											"value": "5baa764fc1d66eb368f9db59193f3f58"
+										},
+										{
+											"key": "url",
+											"value": "",
+											"disabled": true
+										},
+										{
+											"key": "type",
+											"value": "",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Daily Transaction Report (Reconciliation)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "merchantID",
+											"value": "<merchant id>",
+											"description": "Merchant ID in PG system",
+											"type": "text"
+										},
+										{
+											"key": "skey",
+											"value": "896451ba9c98054114bc0e591910048a",
+											"description": "skey   =md5( rdate & merchantID & secret_key )",
+											"type": "text"
+										},
+										{
+											"key": "rdate",
+											"value": "2021-09-30",
+											"description": "The date or beginning time of transactions to query\n2020-10-10 or 2020-10-10 07:11:24",
+											"type": "text"
+										},
+										{
+											"key": "rduration",
+											"value": "",
+											"description": "Without rduration, the search duration is 24 hours or 86400 seconds starting from rdate",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "status",
+											"value": "",
+											"description": "00 - success\n11 - failed\n22 - pending\n\nCombine with delimiter “|” for multiple status or left empty for all status",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "version",
+											"value": "2",
+											"description": "2 or 3",
+											"type": "text"
+										},
+										{
+											"key": "additional_fields",
+											"value": "",
+											"description": "TransactionRate - transaction rate\nBillingInfo - billing info\nTransactionCost - transaction cost\nChannel - channel\nBillingMobileNumber - billing mobile\nTransactionFee - transaction fee\nGST - GST (tax)\nNetAmount - net amount\nIPAddress - IP address\nBankName - bank name\nBIN - card no (hidden)\nExpiryDate - card expiry date\nStatusDescription - status description\nSettlementDate - settlement date\nPaidDate - paid date\nTerminalID - terminal ID\nPayTransactionID - transaction ID\nBuyerName - buyer name\nCaptureRefID - Capture Reference ID (Only in v3)\nRefundRefID - Refund Reference ID (Only in v3)\nall - for all additional fields\n\nCombine with delimiter “,” for multiple fields\n",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "response_type",
+											"value": "",
+											"description": "Response format in either text/json/csv(only in v2 and v3)",
+											"type": "text",
+											"disabled": true
+										}
+									]
+								},
+								"url": {
+									"raw": "https://api.merchant.razer.com/RMS/API/PSQ/psq-daily.php",
+									"protocol": "https",
+									"host": [
+										"api",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"API",
+										"PSQ",
+										"psq-daily.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Daily Transaction Report (Reconciliation)",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://api.merchant.razer.com/RMS/API/PSQ/psq-daily.php?merchantID=<merchant id>&skey=896451ba9c98054114bc0e591910048a&rdate=2021-09-30&version=2",
+									"protocol": "https",
+									"host": [
+										"api",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"API",
+										"PSQ",
+										"psq-daily.php"
+									],
+									"query": [
+										{
+											"key": "merchantID",
+											"value": "<merchant id>"
+										},
+										{
+											"key": "skey",
+											"value": "896451ba9c98054114bc0e591910048a"
+										},
+										{
+											"key": "rdate",
+											"value": "2021-09-30"
+										},
+										{
+											"key": "rduration",
+											"value": "",
+											"disabled": true
+										},
+										{
+											"key": "status",
+											"value": "",
+											"disabled": true
+										},
+										{
+											"key": "version",
+											"value": "2"
+										},
+										{
+											"key": "additional_fields",
+											"value": "",
+											"disabled": true
+										},
+										{
+											"key": "response_type",
+											"value": "",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Settlement Report (Reconciliation)",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": []
+								},
+								"url": {
+									"raw": "https://api.merchant.razer.com/RMS/API/settlement/report.php?version=5.0&merchant_id=<merchant id>&token=8c4cc55492613d6b96f8d5b7cba615f7&date=2021-09-30&format=csv&page=1",
+									"protocol": "https",
+									"host": [
+										"api",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"API",
+										"settlement",
+										"report.php"
+									],
+									"query": [
+										{
+											"key": "version",
+											"value": "5.0",
+											"description": "Indicate version of the API. Current version is 5.0. If not specified, version 1.0 will be used."
+										},
+										{
+											"key": "merchant_id",
+											"value": "<merchant id>",
+											"description": "Merchant ID in PG system"
+										},
+										{
+											"key": "token",
+											"value": "8c4cc55492613d6b96f8d5b7cba615f7",
+											"description": "token =md5( merchantID & secret_key & date )"
+										},
+										{
+											"key": "date",
+											"value": "2021-09-30",
+											"description": "The date of settlement to query"
+										},
+										{
+											"key": "format",
+											"value": "csv",
+											"description": "Recommend to use csv for large file"
+										},
+										{
+											"key": "download",
+											"value": null,
+											"description": "Download option is only available for CSV format",
+											"disabled": true
+										},
+										{
+											"key": "page",
+											"value": "1",
+											"description": "Determines the page to view for D records that have a limit of 5000 transactions. Currently available to version 5.0"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Capture Request (For pre-auth or authorized transaction)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "domain",
+											"value": "<merchant id>",
+											"description": "Merchant ID in PG system",
+											"type": "text"
+										},
+										{
+											"key": "tranID",
+											"value": "30365812",
+											"description": "Unique PG transaction ID",
+											"type": "text"
+										},
+										{
+											"key": "amount",
+											"value": "1.10",
+											"description": "The total amount paid or to be paid",
+											"type": "text"
+										},
+										{
+											"key": "RefID",
+											"value": "DEMO637",
+											"description": "Reference ID for tracking purpose sent by merchant",
+											"type": "text"
+										},
+										{
+											"key": "skey",
+											"value": "6c81888358f4058f1fb05f0fde5c03cd",
+											"description": "skey   =md5( txnID & amount & domain & verify_key )",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://api.merchant.razer.com/RMS/API/capstxn/index.php",
+									"protocol": "https",
+									"host": [
+										"api",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"API",
+										"capstxn",
+										"index.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Capture Request (For pre-auth or authorized transaction)",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://api.merchant.razer.com/RMS/API/capstxn/index.php?domain=<merchant id>&tranID=30365812&amount=1.10&RefID=DEMO637&skey=6c81888358f4058f1fb05f0fde5c03cd",
+									"protocol": "https",
+									"host": [
+										"api",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"API",
+										"capstxn",
+										"index.php"
+									],
+									"query": [
+										{
+											"key": "domain",
+											"value": "<merchant id>"
+										},
+										{
+											"key": "tranID",
+											"value": "30365812"
+										},
+										{
+											"key": "amount",
+											"value": "1.10"
+										},
+										{
+											"key": "RefID",
+											"value": "DEMO637"
+										},
+										{
+											"key": "skey",
+											"value": "6c81888358f4058f1fb05f0fde5c03cd"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Reversal Request",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "txnID",
+											"value": "30365812",
+											"description": "Unique transaction ID for tracking purpose",
+											"type": "text"
+										},
+										{
+											"key": "domain",
+											"value": "<merchant id>",
+											"description": "Merchant ID in PG system",
+											"type": "text"
+										},
+										{
+											"key": "skey",
+											"value": "23031da5947a366e1997cf99d2aa75de",
+											"description": "skey   =md5( txnID & domain & secret_key)",
+											"type": "text"
+										},
+										{
+											"key": "url",
+											"value": "",
+											"description": "The URL to receive POST response from PG",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "type",
+											"value": "",
+											"description": "0 = plain text result (default)\n1 = result via POST method",
+											"type": "text",
+											"disabled": true
+										}
+									]
+								},
+								"url": {
+									"raw": "https://api.merchant.razer.com/RMS/API/refundAPI/refund.php",
+									"protocol": "https",
+									"host": [
+										"api",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"API",
+										"refundAPI",
+										"refund.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Reversal Request",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://api.merchant.razer.com/RMS/API/refundAPI/refund.php?txnID=30365812&domain=<merchant id>&skey=23031da5947a366e1997cf99d2aa75de",
+									"protocol": "https",
+									"host": [
+										"api",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"API",
+										"refundAPI",
+										"refund.php"
+									],
+									"query": [
+										{
+											"key": "txnID",
+											"value": "30365812"
+										},
+										{
+											"key": "domain",
+											"value": "<merchant id>"
+										},
+										{
+											"key": "skey",
+											"value": "23031da5947a366e1997cf99d2aa75de"
+										},
+										{
+											"key": "url",
+											"value": "",
+											"disabled": true
+										},
+										{
+											"key": "type",
+											"value": "",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Advanced Full/Partial Refund",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "RefundType",
+											"value": "P",
+											"description": "P - Partial Refund",
+											"type": "text"
+										},
+										{
+											"key": "MerchantID",
+											"value": "<merchant id>",
+											"description": "Merchant ID provided by PG",
+											"type": "text"
+										},
+										{
+											"key": "RefID",
+											"value": "DEMO637",
+											"description": "Unique reference ID for tracking purpose sent by merchant",
+											"type": "text"
+										},
+										{
+											"key": "TxnID",
+											"value": "30365812",
+											"description": "PG Transaction ID",
+											"type": "text"
+										},
+										{
+											"key": "Amount",
+											"value": "1.10",
+											"description": "eg. ‘5.00’ Amount to be refunded",
+											"type": "text"
+										},
+										{
+											"key": "BankCode",
+											"value": "",
+											"description": "Applicable for Online Banking and Physical Payment transactions only. (Refer to predefined bank lists",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "BankCountry",
+											"value": "",
+											"description": "Applicable for Online Banking and Physical Payment transactions only. Two letters country ISO code. (Default value: MY)",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "BeneficiaryName",
+											"value": "",
+											"description": "Applicable for Online Banking and Physical Payment transactions only.",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "BeneficiaryAccNo",
+											"value": "",
+											"description": "Applicable for Online Banking and Physical Payment transactions only.",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "Signature",
+											"value": "17136900a6ece7cedd0134282c9d5b45",
+											"description": "Signature = md5(  RefundType .  MerchantID .  RefID .  TxnID .  Amount . secret_key )",
+											"type": "text"
+										},
+										{
+											"key": "mdr_flag",
+											"value": "",
+											"description": "This is to include or exclude MDR refund to the buyer if the amount is same as bill amount.\nAvailable value is as below:\n0 - Include MDR/Full Refund (Default)\n1 - Exclude/Reserved MDR",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "notify_url",
+											"value": "",
+											"description": "This is the URL for merchant to receive refund status (same response as this API), either 00 (Success) or 11 (Rejected)  with slightly different Signature",
+											"type": "text",
+											"disabled": true
+										}
+									]
+								},
+								"url": {
+									"raw": "https://api.merchant.razer.com/RMS/API/refundAPI/index.php",
+									"protocol": "https",
+									"host": [
+										"api",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"API",
+										"refundAPI",
+										"index.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Advanced Full/Partial Refund",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://api.merchant.razer.com/RMS/API/refundAPI/index.php?RefundType=P&MerchantID=<merchant id>&RefID=DEMO637&TxnID=30365812&Amount=1.10&Signature=17136900a6ece7cedd0134282c9d5b45",
+									"protocol": "https",
+									"host": [
+										"api",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"API",
+										"refundAPI",
+										"index.php"
+									],
+									"query": [
+										{
+											"key": "RefundType",
+											"value": "P"
+										},
+										{
+											"key": "MerchantID",
+											"value": "<merchant id>"
+										},
+										{
+											"key": "RefID",
+											"value": "DEMO637"
+										},
+										{
+											"key": "TxnID",
+											"value": "30365812"
+										},
+										{
+											"key": "Amount",
+											"value": "1.10"
+										},
+										{
+											"key": "BankCode",
+											"value": "",
+											"disabled": true
+										},
+										{
+											"key": "BankCountry",
+											"value": "",
+											"disabled": true
+										},
+										{
+											"key": "BeneficiaryName",
+											"value": "",
+											"disabled": true
+										},
+										{
+											"key": "BeneficiaryAccNo",
+											"value": "",
+											"disabled": true
+										},
+										{
+											"key": "Signature",
+											"value": "17136900a6ece7cedd0134282c9d5b45"
+										},
+										{
+											"key": "mdr_flag",
+											"value": "",
+											"disabled": true
+										},
+										{
+											"key": "notify_url",
+											"value": "",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Partial Refund Status Inquiry by TxnID/RefID",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "TxnID",
+											"value": "30365812",
+											"description": "PG Transaction ID",
+											"type": "text"
+										},
+										{
+											"key": "MerchantID",
+											"value": "<merchant id>",
+											"description": "Merchant ID provided by PG",
+											"type": "text"
+										},
+										{
+											"key": "Signature",
+											"value": "23031da5947a366e1997cf99d2aa75de",
+											"description": "Signature = md5(  TxnID .  MerchantID .  verify_key )",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://api.merchant.razer.com/RMS/API/refundAPI/q_by_txn.php",
+									"protocol": "https",
+									"host": [
+										"api",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"API",
+										"refundAPI",
+										"q_by_txn.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Partial Refund Status Inquiry by TxnID/RefID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://api.merchant.razer.com/RMS/API/refundAPI/q_by_txn.php?TxnID=30365812&MerchantID=<merchant id>&Signature=23031da5947a366e1997cf99d2aa75de",
+									"protocol": "https",
+									"host": [
+										"api",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"API",
+										"refundAPI",
+										"q_by_txn.php"
+									],
+									"query": [
+										{
+											"key": "TxnID",
+											"value": "30365812"
+										},
+										{
+											"key": "MerchantID",
+											"value": "<merchant id>"
+										},
+										{
+											"key": "Signature",
+											"value": "23031da5947a366e1997cf99d2aa75de"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Static QR-Code Generator",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "merchantID",
+											"value": "<merchant id>",
+											"description": "Merchant ID provided by PG",
+											"type": "text"
+										},
+										{
+											"key": "channel",
+											"value": "WeChatPaySQR",
+											"description": "Channel requested:\nAlipaySQR - Alipay Static QR\nWeChatPaySQR - WeChat Pay Static QR\n",
+											"type": "text"
+										},
+										{
+											"key": "orderid",
+											"value": "DEMO637",
+											"description": "Items ID. E.g: S001",
+											"type": "text"
+										},
+										{
+											"key": "currency",
+											"value": "MYR",
+											"description": "ISO-4217 currency code",
+											"type": "text"
+										},
+										{
+											"key": "amount",
+											"value": "1.10",
+											"description": "The total amount to be paid in one purchase order. 2 decimal points and comma( , ) is not allowed",
+											"type": "text"
+										},
+										{
+											"key": "bill_name",
+											"value": "itemname",
+											"description": "Items name",
+											"type": "text"
+										},
+										{
+											"key": "bill_desc",
+											"value": "itemdesc",
+											"description": "Item description",
+											"type": "text"
+										},
+										{
+											"key": "checksum",
+											"value": "5d6bca8f6029e19a7f70750753fc0425",
+											"description": "Checksum = md5(  merchantID . channel . orderid . currency . amount  .  verify_key )",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://api.merchant.razer.com/RMS/API/staticqr/index.php",
+									"protocol": "https",
+									"host": [
+										"api",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"API",
+										"staticqr",
+										"index.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Static QR-Code Generator",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://api.merchant.razer.com/RMS/API/staticqr/index.php?merchantID=<merchant id>&channel=WeChatPaySQR&orderid=DEMO637&currency=MYR&amount=1.10&bill_name=itemname&bill_desc=itemdesc&checksum=5d6bca8f6029e19a7f70750753fc0425",
+									"protocol": "https",
+									"host": [
+										"api",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"API",
+										"staticqr",
+										"index.php"
+									],
+									"query": [
+										{
+											"key": "merchantID",
+											"value": "<merchant id>"
+										},
+										{
+											"key": "channel",
+											"value": "WeChatPaySQR"
+										},
+										{
+											"key": "orderid",
+											"value": "DEMO637"
+										},
+										{
+											"key": "currency",
+											"value": "MYR"
+										},
+										{
+											"key": "amount",
+											"value": "1.10"
+										},
+										{
+											"key": "bill_name",
+											"value": "itemname"
+										},
+										{
+											"key": "bill_desc",
+											"value": "itemdesc"
+										},
+										{
+											"key": "checksum",
+											"value": "5d6bca8f6029e19a7f70750753fc0425"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Channel Status API",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://api.merchant.razer.com/RMS/API/chkstat/OK-rate.php?domain=<merchant id>&reqTime=20161202153423&reqType=Global&skey=5d6bca8f6029e19a7f70750753fc0425&duration=3",
+									"protocol": "https",
+									"host": [
+										"api",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"API",
+										"chkstat",
+										"OK-rate.php"
+									],
+									"query": [
+										{
+											"key": "domain",
+											"value": "<merchant id>",
+											"description": "Merchant ID in PG system"
+										},
+										{
+											"key": "reqTime",
+											"value": "20161202153423",
+											"description": "Request date & time, e.g. 20161202153423"
+										},
+										{
+											"key": "reqType",
+											"value": "Global",
+											"description": "Global: system-wide OK rate\nMerchant: merchant only OK rate"
+										},
+										{
+											"key": "skey",
+											"value": "5d6bca8f6029e19a7f70750753fc0425",
+											"description": "skey  = md5( domain & secret_key & reqTime & reqType )"
+										},
+										{
+											"key": "duration",
+											"value": "3",
+											"description": "Latest sampling window size in HOUR for merchant-only request. If the total sampling number is less than 30, it has less reference value due to the low statistical significance and n/a will be given"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Card BIN information API",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://api.merchant.razer.com/RMS/query/q_BINinfo.php?domain=<merchant id>&skey=5d6bca8f6029e19a7f70750753fc0425&BIN=519603",
+									"protocol": "https",
+									"host": [
+										"api",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"query",
+										"q_BINinfo.php"
+									],
+									"query": [
+										{
+											"key": "domain",
+											"value": "<merchant id>",
+											"description": "Merchant ID in PG system"
+										},
+										{
+											"key": "skey",
+											"value": "5d6bca8f6029e19a7f70750753fc0425",
+											"description": "skey  = md5( domain & secret_key & BIN )"
+										},
+										{
+											"key": "BIN",
+											"value": "519603",
+											"description": "First 6-digit number of the PAN, e.g. 519603"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Foreign Exchange Rate API",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://api.merchant.razer.com/RMS/query/q_fx_rate.php?domain=<merchant id>&reqtime=20161202&source=Maybank&skey=5d6bca8f6029e19a7f70750753fc0425",
+									"protocol": "https",
+									"host": [
+										"api",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"query",
+										"q_fx_rate.php"
+									],
+									"query": [
+										{
+											"key": "domain",
+											"value": "<merchant id>",
+											"description": "Merchant ID in PG system"
+										},
+										{
+											"key": "reqtime",
+											"value": "20161202",
+											"description": "Request date & time, e.g. 20161202"
+										},
+										{
+											"key": "source",
+											"value": "Maybank",
+											"description": "Predefined value as below:\nBNM\nMaybank\n"
+										},
+										{
+											"key": "skey",
+											"value": "5d6bca8f6029e19a7f70750753fc0425",
+											"description": "skey  = md5( domain & secret_key & reqTime )"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Void Pending-Cash API",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "tranID",
+											"value": "30365812",
+											"description": "PG Transaction ID",
+											"type": "text"
+										},
+										{
+											"key": "amount",
+											"value": "1.10",
+											"description": "The total amount to be paid in one purchase order. 2 decimal points, comma( , ) is not allowed.",
+											"type": "text"
+										},
+										{
+											"key": "merchantID",
+											"value": "<merchant id>",
+											"description": "Merchant ID provided by PG",
+											"type": "text"
+										},
+										{
+											"key": "checksum",
+											"value": "5d6bca8f6029e19a7f70750753fc0425",
+											"description": "Checksum= md5(  tranID . amount . merchantID .  verify_key )",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://api.merchant.razer.com/RMS/API/VoidPendingCash/index.php",
+									"protocol": "https",
+									"host": [
+										"api",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"API",
+										"VoidPendingCash",
+										"index.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Void Pending-Cash API",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://api.merchant.razer.com/RMS/API/VoidPendingCash/index.php?tranID=30365812&amount=1.10&merchantID=<merchant id>&checksum=5d6bca8f6029e19a7f70750753fc0425",
+									"protocol": "https",
+									"host": [
+										"api",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"API",
+										"VoidPendingCash",
+										"index.php"
+									],
+									"query": [
+										{
+											"key": "tranID",
+											"value": "30365812"
+										},
+										{
+											"key": "amount",
+											"value": "1.10"
+										},
+										{
+											"key": "merchantID",
+											"value": "<merchant id>"
+										},
+										{
+											"key": "checksum",
+											"value": "5d6bca8f6029e19a7f70750753fc0425"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Recurring Plans API",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "domain",
+											"value": "<merchant id>",
+											"description": "Merchant ID provided by PG",
+											"type": "text"
+										},
+										{
+											"key": "charge_on_endofmonth",
+											"value": "",
+											"description": "Predefined value as below:\nY\nN\n",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "period",
+											"value": "",
+											"description": "Predefined value as below:\nmonth\nweek\nday\nyear\nquarter\nhalfyear\nbimonth\nbiweek\n",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "cycle_term",
+											"value": "",
+											"description": "Billing cycle (E.g. ‘6’, ‘12’, ‘24’)",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "status",
+											"value": "",
+											"description": "Predefined value as below:\nOn\nOff\nNA\n",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "skey",
+											"value": "5d6bca8f6029e19a7f70750753fc0425",
+											"description": "skey  = md5( domain & secret_key & charge_on_endofmonth & period & cycle_term & status)",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://api.merchant.razer.com/RMS/API/Recurring/get_plans.php",
+									"protocol": "https",
+									"host": [
+										"api",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"API",
+										"Recurring",
+										"get_plans.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Recurring Plans API",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://api.merchant.razer.com/RMS/API/Recurring/get_plans.php?domain=<merchant id>&skey=5d6bca8f6029e19a7f70750753fc0425",
+									"protocol": "https",
+									"host": [
+										"api",
+										"merchant",
+										"razer",
+										"com"
+									],
+									"path": [
+										"RMS",
+										"API",
+										"Recurring",
+										"get_plans.php"
+									],
+									"query": [
+										{
+											"key": "domain",
+											"value": "<merchant id>"
+										},
+										{
+											"key": "charge_on_endofmonth",
+											"value": "",
+											"disabled": true
+										},
+										{
+											"key": "period",
+											"value": "",
+											"disabled": true
+										},
+										{
+											"key": "cycle_term",
+											"value": "",
+											"disabled": true
+										},
+										{
+											"key": "status",
+											"value": "",
+											"disabled": true
+										},
+										{
+											"key": "skey",
+											"value": "5d6bca8f6029e19a7f70750753fc0425"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}
