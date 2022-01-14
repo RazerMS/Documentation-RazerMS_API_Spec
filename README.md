@@ -24,17 +24,17 @@ Razer_VT_User_Guide: RMS VT mobile app is a free payment acceptance touchpoint f
 
 # *** API DOCS ***
 
-[official API] Razer API Spec for Merchant : This is a general API document that covers hosted payment page integration & 3 endpoints specification. 
+Razer API Spec for Merchant : This is a general API document that covers hosted payment page integration & 3 endpoints specification. 
                                              Most of the common features required are covered here.
                                               
                                               
 
-[Official] Razer Direct Server API : This is a host-to-host / server-to-server payment request integration for large online platform & e-commerce merchant
+Razer Direct Server API : This is a host-to-host / server-to-server payment request integration for large online platform & e-commerce merchant
 
 
 Razer Recurring API : For subscription based payment, recurring or adhoc merchant initiated transaction (MIT). Tokenization is included and required.
 
 
-[OPA+MAP] Razer Offline Payment API : In-store POS or terminal integration for physical outlet or chain retail store to accept e-wallet payment
+Razer Offline Payment API : In-store POS or terminal integration for physical outlet or chain retail store to accept e-wallet payment
 
 
