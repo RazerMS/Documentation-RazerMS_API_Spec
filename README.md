@@ -1,5 +1,5 @@
 # API-Spec
-API Specification documents for merchants
+API Specification documents for e-commerce (online) and physical (offline) merchants
 
 # NEW TO RMS?
 RMS is payment gateway and payment service provider that serves multiple top e-commerce platforms and most of the well-known branding in Southeast Asia region. 
