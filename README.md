@@ -4,7 +4,7 @@
 
 API Specification documents for e-commerce (online) and physical (offline) merchants
 
-# NEW TO Razer Merchant Services?
+# NEW TO RAZER MERCHANT SERVICES?
 Razer Merchant Services (RMS) is payment gateway and payment service provider that serves multiple top e-commerce platforms and most of the well-known branding in Southeast Asia region. 
 High availability and interoperability with single API integration allows merchant to perform payment orchestration regionally in compliant manner.
 
