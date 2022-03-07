@@ -1,8 +1,11 @@
 # API-Spec
+
+<img src="https://user-images.githubusercontent.com/38641542/157004440-840c8ab7-703d-4f94-8564-d98436382897.jpg">
+
 API Specification documents for e-commerce (online) and physical (offline) merchants
 
-# NEW TO RMS?
-RMS is payment gateway and payment service provider that serves multiple top e-commerce platforms and most of the well-known branding in Southeast Asia region. 
+# NEW TO Razer Merchant Services?
+Razer Merchant Services (RMS) is payment gateway and payment service provider that serves multiple top e-commerce platforms and most of the well-known branding in Southeast Asia region. 
 High availability and interoperability with single API integration allows merchant to perform payment orchestration regionally in compliant manner.
 
 
