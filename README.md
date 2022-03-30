@@ -43,12 +43,13 @@ Razer Offline Payment API : In-store POS or terminal integration for physical ou
 
 ## Resources
 
-Website:     https://merchant.razer.com/
-Facebook:   https://www.facebook.com/RazerMerchantServices/
-Instagram:  https://www.instagram.com/RazerMerchantServices/
-Twitter:       https://twitter.com/Razer_MS
-GitHub:      https://github.com/RazerMS
-YouTube:    https://www.youtube.com/c/RazerMerchantServices
+- Website:     https://merchant.razer.com/
+- Facebook:   https://www.facebook.com/RazerMerchantServices/
+- Instagram:  https://www.instagram.com/RazerMerchantServices/
+- Twitter:       https://twitter.com/Razer_MS
+- GitHub:      https://github.com/RazerMS
+- YouTube:    https://www.youtube.com/c/RazerMerchantServices
+
 
 ## Support
 
