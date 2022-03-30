@@ -41,6 +41,15 @@ Razer Recurring API : For subscription based payment, recurring or adhoc merchan
 Razer Offline Payment API : In-store POS or terminal integration for physical outlet or chain retail store to accept e-wallet payment
 
 
+## Resources
+
+Website:     https://merchant.razer.com/
+Facebook:   https://www.facebook.com/RazerMerchantServices/
+Instagram:  https://www.instagram.com/RazerMerchantServices/
+Twitter:       https://twitter.com/Razer_MS
+GitHub:      https://github.com/RazerMS
+YouTube:    https://www.youtube.com/c/RazerMerchantServices
+
 ## Support
 
 Submit issue to this repository or email to our support-sa@razer.com
