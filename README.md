@@ -41,6 +41,11 @@ Razer Recurring API : For subscription based payment, recurring or adhoc merchan
 Razer Offline Payment API : In-store POS or terminal integration for physical outlet or chain retail store to accept e-wallet payment
 
 
+RMS Escrow & Mass Payout API : This document is available upon request only due to the risk of paying out using merchants' availablen funds
+
+
+
+
 ## Resources
 - GitHub:     https://github.com/RazerMS
 - Website:    https://merchant.razer.com/
